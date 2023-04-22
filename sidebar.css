@@ -1,0 +1,28 @@
+.side-bar {
+    position: fixed;
+    width: 90px;
+    top: 70px;
+    bottom: 0;
+    
+    height: 100%;
+}
+
+.home-icon, .explore-icon, .subscriptions-icon, .originals-icon, .youtube-music-icon, .library-icon {
+    width: 20px;
+    padding: 7px;
+
+}
+
+.home-button, .explore-button, .subscriptions-button, .originals-button, .youtube-music-button, .library-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    height: 80px;
+    border-style: none;
+    background-color: white;
+}
+
+.home-button:hover, .explore-button:hover, .subscriptions-button:hover, .originals-button:hover, .youtube-music-button:hover, .library-button:hover {
+    background-color: rgb(235, 230, 230);
+}

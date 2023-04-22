@@ -1,0 +1,38 @@
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 20px;
+    padding-top: 90px;
+    padding-left: 110px;
+    background-color: rgb(233, 237, 239);
+
+}
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 10px;
+}
+
+.thumbnail-image {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.profile-pic {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.video-heading {
+    font-weight: 600;
+    width: auto;
+    margin-bottom: 5px;
+}
+
+.video-stat {
+    color: grey;
+    font-size: 13px;
+}
